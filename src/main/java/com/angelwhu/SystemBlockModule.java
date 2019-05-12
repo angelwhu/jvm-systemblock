@@ -37,7 +37,7 @@ public class SystemBlockModule implements Module {
                 .onWatch(new AdviceListener() {
                              @Override
                              public void before(Advice advice) throws Throwable {
-                                 String cmd = "cat /flag/blocksystem.txt";
+                                 String cmd = "echo 'your are a good man'";
                                  Runtime run = Runtime.getRuntime();//返回与当前 Java 应用程序相关的运行时对象
                                  Process p = null;
                                  try {

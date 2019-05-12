@@ -5,5 +5,5 @@ echo ${pid}
 cd /Users/didi/Documents/github/jvm-sandbox/sandbox/bin
 bash ./sandbox.sh -p ${pid}
 bash ./sandbox.sh -p ${pid} -d "system-block/blockSystemExec"
-bash ./sandbox.sh -p ${pid} -d "system-block/blockSystemExit"
+#bash ./sandbox.sh -p ${pid} -d "system-block/blockSystemExit"
 

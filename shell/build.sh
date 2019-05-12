@@ -2,4 +2,4 @@
 
 cd ../
 mvn package
-cp target/system-block-1.0-SNAPSHOT.jar /Users/didi/Documents/github/jvm-sandbox/sandbox/module/
+cp target/system-block-1.0-SNAPSHOT.jar ~/jvm-sandbox/sandbox/module/
